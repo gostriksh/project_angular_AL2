@@ -1,0 +1,23 @@
+{
+  "name": "angular_project_al2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc src/index.ts src/Pokemon.ts src/index.test.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "awesome-typescript-loader": "^5.2.1",
+    "jest": "^24.5.0",
+    "lodash": "^4.17.11",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "source-map-loader": "^0.2.4"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.11"
+  }
+}
